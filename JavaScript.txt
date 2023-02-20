@@ -1,0 +1,37 @@
+// Vamos falar de coisas básicas da programação em JavaScript
+
+// Variaveis
+
+const mensagem = "Hello world" //String
+const numero = 2.5
+
+function soma(numero1, numero2) {
+    return numero1 + numero2
+}
+const somar = soma(10, 20)
+
+console.log(soma(5, 5))
+console.log(somar) 
+
+
+// Objetos
+const xicara = {
+    cor: "branco",
+    tamanho: 10,
+    estaSujo(simNao){
+        console.log(simNao)
+    }
+}
+xicara.estaSujo("sim")
+
+const cor = "preto"
+const tamanho = 5
+function sujo(esta){
+    console.log(esta)
+}
+
+const xicara2 = {
+    cor,
+    tamanho,
+    sujo
+}
